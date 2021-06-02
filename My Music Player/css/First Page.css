@@ -1,0 +1,103 @@
+body{
+	background-image: linear-gradient(to bottom right, #24057a, #23255e, #43082d);
+	margin: 0;
+	height: 100vh;
+}
+
+#About{
+	display: flex;
+	flex-direction: column;
+	background-color: transparent;
+}
+
+.mo{
+	font-family: Brush Script MT;
+	font-weight: 900;
+	color: white;
+}
+
+.size-3{
+	font-size: 1.2rem;
+}
+
+.disp-style{
+	display: flex;
+	justify-content: center;
+}
+
+
+/*.......top-bar..........*/
+
+.top-bar{
+	height: 85px;
+	margin: 0%;
+	align-items: center;
+}
+
+.logo-header{
+	font-size: 3rem;
+}
+
+.logo-header::before{
+
+}
+
+/*..........mid-bar.........*/
+
+.mid-body{
+	background-image: url(../image/2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100vw;
+	height: 70vh;
+	align-items: center;
+}
+
+.mid-body a{
+	height: 3.2rem;
+	width: 10rem;
+	border-radius: 1.6rem;
+	background: transparent;
+	border: 3px white solid;
+	font-size: 2.2rem;
+	align-items: center;
+	text-decoration: none;
+}
+
+.mid-body a:hover{
+	border-color: blue;
+	color: blue;
+	transition: .5s;
+}
+.mid-body a:active{
+	transform: scale(.9);
+}
+
+/*..........bottom-bar........*/
+
+.bottom-bar{
+	text-align: center;
+}
+
+.horizontal-list{
+	list-style: none;
+
+}
+
+.horizontal-list li a{
+	color: cyan;
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin: 10px;
+	font-size: 1.2rem;	
+	border-radius: 40%;
+	padding: .6rem;
+}
+
+.horizontal-list li:hover{
+	box-shadow: 0px 0px  3px 2px white;
+	color: white;
+}
